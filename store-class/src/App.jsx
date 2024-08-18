@@ -1,5 +1,4 @@
-import React from 'react'
-import ShopItemFunc from './components/ShopItemClass'
+import ShopItemClass from './components/ShopItemClass'
 
 const item = {
 	brand: 'Tiger of Sweden',
@@ -19,7 +18,7 @@ function App() {
 				<div className='highlight-overlay'></div>
 			</div>
 			<div className='window'>
-				<ShopItemFunc item={item} />
+				<ShopItemClass item={item} />
 			</div>
 		</div>
 	)
